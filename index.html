@@ -22,7 +22,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="antialiased">
@@ -45,13 +47,15 @@
             <div class="nav-inner">
                 <!-- Logo -->
                 <a href="#home" class="nav-logo" data-route="home">
-                    <div class="nav-logo-icon">
+                    <img src="https://raw.githubusercontent.com/rolsex946/wt/refs/heads/main/image-Photoroom.png"
+                        alt="webtrends.co.in logo" srcset="" width="130px">
+                    <!-- <div class="nav-logo-icon">
                         <span class="nav-logo-w">W</span><span class="nav-logo-eb">EB</span>
                     </div>
                     <div class="nav-logo-text">
                         <span class="nav-logo-name">TRENDS</span>
                         <span class="nav-logo-tagline">Tax Help & Support</span>
-                    </div>
+                    </div> -->
                 </a>
 
                 <!-- Desktop Menu -->
@@ -105,7 +109,7 @@
                                 </div>
                                 <div class="nav-dropdown-cta">
                                     <a href="#services" data-route="services" class="nav-dropdown-cta-link">View All 30+
-                                        Services <i data-lucide="arrow-right"></i></a>
+                                        Services <i class="fa-solid fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -114,7 +118,7 @@
                         <a href="#contact" data-route="contact" class="nav-link">Contact</a>
                     </div>
                     <a href="#contact" data-route="contact" class="nav-cta-btn">
-                        <i data-lucide="phone" class="nav-cta-icon"></i>
+                        <i class="fa-solid fa-phone nav-cta-icon"></i>
                         Free Consultation
                     </a>
                 </div>
@@ -136,7 +140,7 @@
                         <span class="nav-logo-w">W</span><span>TRENDS</span>
                     </div>
                     <button id="mobile-menu-close" class="mobile-menu-close" aria-label="Close Menu">
-                        <i data-lucide="x"></i>
+                        <i class="fa-solid fa-xmark"></i>
                     </button>
                 </div>
                 <div class="mobile-menu-links">
@@ -160,14 +164,14 @@
                 </div>
                 <div class="mobile-menu-footer">
                     <a href="tel:9903575757" class="mobile-menu-call">
-                        <i data-lucide="phone"></i>
+                        <i class="fa-solid fa-phone"></i>
                         Call: 99035 75757
                     </a>
                     <div class="mobile-menu-social">
-                        <a href="#" class="mobile-social-icon"><i data-lucide="facebook"></i></a>
-                        <a href="#" class="mobile-social-icon"><i data-lucide="instagram"></i></a>
-                        <a href="#" class="mobile-social-icon"><i data-lucide="linkedin"></i></a>
-                        <a href="#" class="mobile-social-icon"><i data-lucide="youtube"></i></a>
+                        <a href="#" class="mobile-social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="mobile-social-icon"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="mobile-social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" class="mobile-social-icon"><i class="fa-brands fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
@@ -190,7 +194,7 @@
 
                 <div class="container hero-content">
                     <div class="hero-badge">
-                        <i data-lucide="award" class="hero-badge-icon"></i>
+                        <i class="fa-solid fa-award hero-badge-icon"></i>
                         Prabin Kumar Saha — Professional Tax Consultant
                     </div>
                     <h1 class="hero-title">
@@ -205,11 +209,11 @@
                     <div class="hero-actions">
                         <a href="#services" data-route="services" class="btn btn-primary btn-lg">
                             Explore Services
-                            <i data-lucide="chevron-right"></i>
+                            <i class="fa-solid fa-chevron-right"></i>
                         </a>
                         <button class="btn btn-glass btn-lg" id="hero-consult-btn">
                             Book Free Consultation
-                            <i data-lucide="calendar"></i>
+                            <i class="fa-solid fa-calendar"></i>
                         </button>
                     </div>
                     <div class="hero-trust">
@@ -228,11 +232,11 @@
                         </div>
                         <div class="hero-trust-text">
                             <div class="hero-trust-stars">
-                                <i data-lucide="star" class="star-filled"></i>
-                                <i data-lucide="star" class="star-filled"></i>
-                                <i data-lucide="star" class="star-filled"></i>
-                                <i data-lucide="star" class="star-filled"></i>
-                                <i data-lucide="star" class="star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
                             </div>
                             <span>100+ Happy Clients Trust Us</span>
                         </div>
@@ -283,23 +287,23 @@
                                 </div>
                                 <ul class="about-preview-list">
                                     <li class="about-preview-item">
-                                        <i data-lucide="check-circle" class="about-check-icon"></i>
+                                        <i class="fa-solid fa-circle-check about-check-icon"></i>
                                         <span>Expertise in Income Tax & GST</span>
                                     </li>
                                     <li class="about-preview-item">
-                                        <i data-lucide="check-circle" class="about-check-icon"></i>
+                                        <i class="fa-solid fa-circle-check about-check-icon"></i>
                                         <span>Complete Business Registration Support</span>
                                     </li>
                                     <li class="about-preview-item">
-                                        <i data-lucide="check-circle" class="about-check-icon"></i>
+                                        <i class="fa-solid fa-circle-check about-check-icon"></i>
                                         <span>Legal & Financial Consultancy</span>
                                     </li>
                                     <li class="about-preview-item">
-                                        <i data-lucide="check-circle" class="about-check-icon"></i>
+                                        <i class="fa-solid fa-circle-check about-check-icon"></i>
                                         <span>Customer-Centric Approach</span>
                                     </li>
                                     <li class="about-preview-item">
-                                        <i data-lucide="check-circle" class="about-check-icon"></i>
+                                        <i class="fa-solid fa-circle-check about-check-icon"></i>
                                         <span>Affordable & Transparent Pricing</span>
                                     </li>
                                 </ul>
@@ -325,14 +329,14 @@
                             </p>
                             <div class="about-preview-highlights">
                                 <div class="about-highlight-item">
-                                    <i data-lucide="shield-check" class="about-highlight-icon"></i>
+                                    <i class="fa-solid fa-shield-halved about-highlight-icon"></i>
                                     <div>
                                         <strong>Trusted Expertise</strong>
                                         <p>Decade-long experience in tax & compliance</p>
                                     </div>
                                 </div>
                                 <div class="about-highlight-item">
-                                    <i data-lucide="clock" class="about-highlight-icon"></i>
+                                    <i class="fa-solid fa-clock about-highlight-icon"></i>
                                     <div>
                                         <strong>Timely Delivery</strong>
                                         <p>Never miss a deadline with our reminders</p>
@@ -341,7 +345,7 @@
                             </div>
                             <a href="#about" data-route="about" class="btn btn-outline">
                                 Read More About Us
-                                <i data-lucide="arrow-right"></i>
+                                <i class="fa-solid fa-arrow-right"></i>
                             </a>
                         </div>
                     </div>
@@ -377,7 +381,7 @@
                     <div class="section-cta-center">
                         <a href="#services" data-route="services" class="btn btn-primary">
                             View All Services
-                            <i data-lucide="arrow-right"></i>
+                            <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
@@ -398,7 +402,7 @@
                             <div class="process-step-number">1</div>
                             <div class="process-step-line"></div>
                             <div class="process-step-icon">
-                                <i data-lucide="message-circle"></i>
+                                <i class="fa-solid fa-comment-dots"></i>
                             </div>
                             <h3 class="process-step-title">Consultation</h3>
                             <p class="process-step-text">We discuss your needs, understand your business, and identify
@@ -408,7 +412,7 @@
                             <div class="process-step-number">2</div>
                             <div class="process-step-line"></div>
                             <div class="process-step-icon process-step-icon-outline">
-                                <i data-lucide="file-check"></i>
+                                <i class="fa-solid fa-file-circle-check"></i>
                             </div>
                             <h3 class="process-step-title">Documentation</h3>
                             <p class="process-step-text">Secure collection and verification of all required documents
@@ -418,7 +422,7 @@
                             <div class="process-step-number">3</div>
                             <div class="process-step-line"></div>
                             <div class="process-step-icon process-step-icon-outline">
-                                <i data-lucide="settings"></i>
+                                <i class="fa-solid fa-gear"></i>
                             </div>
                             <h3 class="process-step-title">Processing</h3>
                             <p class="process-step-text">Our experts handle filing, registration, and submissions
@@ -427,7 +431,7 @@
                         <div class="process-step">
                             <div class="process-step-number process-step-number-accent">4</div>
                             <div class="process-step-icon process-step-icon-accent">
-                                <i data-lucide="check-circle"></i>
+                                <i class="fa-solid fa-circle-check"></i>
                             </div>
                             <h3 class="process-step-title">Delivery</h3>
                             <p class="process-step-text">Receive your certificates, acknowledgements, and ongoing
@@ -451,7 +455,7 @@
                     <div class="features-grid">
                         <div class="feature-card">
                             <div class="feature-icon feature-icon-blue">
-                                <i data-lucide="shield-check"></i>
+                                <i class="fa-solid fa-shield-halved"></i>
                             </div>
                             <h3 class="feature-title">Trusted Expertise</h3>
                             <p class="feature-text">Over a decade of experience handling complex tax and legal matters
@@ -459,7 +463,7 @@
                         </div>
                         <div class="feature-card">
                             <div class="feature-icon feature-icon-orange">
-                                <i data-lucide="clock"></i>
+                                <i class="fa-solid fa-clock"></i>
                             </div>
                             <h3 class="feature-title">Timely Delivery</h3>
                             <p class="feature-text">We never miss a deadline. Automated reminders and proactive
@@ -467,7 +471,7 @@
                         </div>
                         <div class="feature-card">
                             <div class="feature-icon feature-icon-green">
-                                <i data-lucide="indian-rupee"></i>
+                                <i class="fa-solid fa-indian-rupee-sign"></i>
                             </div>
                             <h3 class="feature-title">Affordable Pricing</h3>
                             <p class="feature-text">Transparent and competitive pricing with no hidden charges. Premium
@@ -475,7 +479,7 @@
                         </div>
                         <div class="feature-card">
                             <div class="feature-icon feature-icon-purple">
-                                <i data-lucide="headphones"></i>
+                                <i class="fa-solid fa-headset"></i>
                             </div>
                             <h3 class="feature-title">24/7 Support</h3>
                             <p class="feature-text">Round-the-clock assistance via phone, WhatsApp, and email for all
@@ -483,7 +487,7 @@
                         </div>
                         <div class="feature-card">
                             <div class="feature-icon feature-icon-red">
-                                <i data-lucide="lock"></i>
+                                <i class="fa-solid fa-lock"></i>
                             </div>
                             <h3 class="feature-title">Data Security</h3>
                             <p class="feature-text">Your documents and financial data are handled with utmost
@@ -491,7 +495,7 @@
                         </div>
                         <div class="feature-card">
                             <div class="feature-icon feature-icon-indigo">
-                                <i data-lucide="users"></i>
+                                <i class="fa-solid fa-users"></i>
                             </div>
                             <h3 class="feature-title">Personalized Service</h3>
                             <p class="feature-text">Every client receives tailored solutions based on their specific
@@ -512,11 +516,11 @@
                     <div class="testimonials-grid">
                         <div class="testimonial-card">
                             <div class="testimonial-stars">
-                                <i data-lucide="star" class="star-filled"></i>
-                                <i data-lucide="star" class="star-filled"></i>
-                                <i data-lucide="star" class="star-filled"></i>
-                                <i data-lucide="star" class="star-filled"></i>
-                                <i data-lucide="star" class="star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
                             </div>
                             <p class="testimonial-text">"Web Trends made my company registration process seamless.
                                 Prabin Sir is very knowledgeable and helpful. The entire process was completed within
@@ -533,11 +537,11 @@
                         </div>
                         <div class="testimonial-card">
                             <div class="testimonial-stars">
-                                <i data-lucide="star" class="star-filled"></i>
-                                <i data-lucide="star" class="star-filled"></i>
-                                <i data-lucide="star" class="star-filled"></i>
-                                <i data-lucide="star" class="star-filled"></i>
-                                <i data-lucide="star" class="star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
                             </div>
                             <p class="testimonial-text">"Excellent service for GST filing. They are timely and accurate.
                                 Highly recommended for anyone looking for reliable tax solutions in Hooghly area."</p>
@@ -553,11 +557,11 @@
                         </div>
                         <div class="testimonial-card">
                             <div class="testimonial-stars">
-                                <i data-lucide="star" class="star-filled"></i>
-                                <i data-lucide="star" class="star-filled"></i>
-                                <i data-lucide="star" class="star-filled"></i>
-                                <i data-lucide="star" class="star-filled"></i>
-                                <i data-lucide="star" class="star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
                             </div>
                             <p class="testimonial-text">"Got my Trade Licence and P-Tax sorted in no time. The team is
                                 very professional and responsive. They keep you updated throughout the process."</p>
@@ -573,11 +577,11 @@
                         </div>
                         <div class="testimonial-card">
                             <div class="testimonial-stars">
-                                <i data-lucide="star" class="star-filled"></i>
-                                <i data-lucide="star" class="star-filled"></i>
-                                <i data-lucide="star" class="star-filled"></i>
-                                <i data-lucide="star" class="star-filled"></i>
-                                <i data-lucide="star" class="star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
                             </div>
                             <p class="testimonial-text">"Very reliable for annual compliance. I don't have to worry
                                 about deadlines anymore. Complete peace of mind since I started working with Web
@@ -594,11 +598,11 @@
                         </div>
                         <div class="testimonial-card">
                             <div class="testimonial-stars">
-                                <i data-lucide="star" class="star-filled"></i>
-                                <i data-lucide="star" class="star-filled"></i>
-                                <i data-lucide="star" class="star-filled"></i>
-                                <i data-lucide="star" class="star-filled"></i>
-                                <i data-lucide="star" class="star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
                             </div>
                             <p class="testimonial-text">"They helped me register my NGO and get 80G certification. The
                                 documentation support was top-notch. I couldn't have done it without their guidance."
@@ -615,11 +619,11 @@
                         </div>
                         <div class="testimonial-card">
                             <div class="testimonial-stars">
-                                <i data-lucide="star" class="star-filled"></i>
-                                <i data-lucide="star" class="star-filled"></i>
-                                <i data-lucide="star" class="star-filled"></i>
-                                <i data-lucide="star" class="star-filled"></i>
-                                <i data-lucide="star" class="star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
+                                <i class="fa-solid fa-star star-filled"></i>
                             </div>
                             <p class="testimonial-text">"Affordable and professional. They explained the GST process
                                 clearly and helped me file on time. Great for small business owners like me."</p>
@@ -652,13 +656,13 @@
                             class="blog-preview-card blog-preview-card-large">
                             <div class="blog-preview-image"
                                 style="background: linear-gradient(135deg, var(--color-blue-600), var(--color-blue-800));">
-                                <div class="blog-preview-image-icon"><i data-lucide="receipt"></i></div>
+                                <div class="blog-preview-image-icon"><i class="fa-solid fa-receipt"></i></div>
                                 <div class="blog-preview-category">Tax Guide</div>
                             </div>
                             <div class="blog-preview-content">
                                 <div class="blog-preview-meta">
-                                    <span><i data-lucide="calendar"></i> Dec 15, 2024</span>
-                                    <span><i data-lucide="clock"></i> 8 min read</span>
+                                    <span><i class="fa-solid fa-calendar"></i> Dec 15, 2025</span>
+                                    <span><i class="fa-solid fa-clock"></i> 8 min read</span>
                                 </div>
                                 <h3 class="blog-preview-title">Complete Guide to GST Registration in India 2025</h3>
                                 <p class="blog-preview-excerpt">Everything you need to know about GST registration —
@@ -668,13 +672,13 @@
                         <a href="#blog-itr-filing" data-route="blog-itr-filing" class="blog-preview-card">
                             <div class="blog-preview-image"
                                 style="background: linear-gradient(135deg, var(--color-orange-500), var(--color-orange-700));">
-                                <div class="blog-preview-image-icon"><i data-lucide="calculator"></i></div>
+                                <div class="blog-preview-image-icon"><i class="fa-solid fa-calculator"></i></div>
                                 <div class="blog-preview-category">Tax Filing</div>
                             </div>
                             <div class="blog-preview-content">
                                 <div class="blog-preview-meta">
-                                    <span><i data-lucide="calendar"></i> Dec 10, 2024</span>
-                                    <span><i data-lucide="clock"></i> 6 min read</span>
+                                    <span><i class="fa-solid fa-calendar"></i> Dec 10, 2025</span>
+                                    <span><i class="fa-solid fa-clock"></i> 6 min read</span>
                                 </div>
                                 <h3 class="blog-preview-title">How to File Income Tax Return: Step-by-Step Guide</h3>
                                 <p class="blog-preview-excerpt">A simplified guide for individuals and businesses to
@@ -685,13 +689,13 @@
                             class="blog-preview-card">
                             <div class="blog-preview-image"
                                 style="background: linear-gradient(135deg, var(--color-green-500), var(--color-green-700));">
-                                <div class="blog-preview-image-icon"><i data-lucide="building-2"></i></div>
+                                <div class="blog-preview-image-icon"><i class="fa-solid fa-building"></i></div>
                                 <div class="blog-preview-category">Business</div>
                             </div>
                             <div class="blog-preview-content">
                                 <div class="blog-preview-meta">
-                                    <span><i data-lucide="calendar"></i> Dec 5, 2024</span>
-                                    <span><i data-lucide="clock"></i> 10 min read</span>
+                                    <span><i class="fa-solid fa-calendar"></i> Dec 5, 2025</span>
+                                    <span><i class="fa-solid fa-clock"></i> 10 min read</span>
                                 </div>
                                 <h3 class="blog-preview-title">Choosing the Right Business Structure in India</h3>
                                 <p class="blog-preview-excerpt">Compare Pvt Ltd, LLP, Partnership, and Sole
@@ -822,11 +826,11 @@
                         </div>
                         <div class="cta-actions">
                             <a href="tel:9903575757" class="btn btn-white btn-lg">
-                                <i data-lucide="phone"></i>
+                                <i class="fa-solid fa-phone"></i>
                                 Call 99035 75757
                             </a>
                             <button class="btn btn-glass-light btn-lg" id="cta-consult-btn">
-                                <i data-lucide="calendar"></i>
+                                <i class="fa-solid fa-calendar"></i>
                                 Book Free Consultation
                             </button>
                         </div>
@@ -878,7 +882,7 @@
                             <div class="about-mission-vision">
                                 <div class="about-mv-card">
                                     <div class="about-mv-icon">
-                                        <i data-lucide="target"></i>
+                                        <i class="fa-solid fa-bullseye"></i>
                                     </div>
                                     <h3>Our Mission</h3>
                                     <p>To simplify compliance for every Indian business and individual through expert
@@ -886,7 +890,7 @@
                                 </div>
                                 <div class="about-mv-card">
                                     <div class="about-mv-icon about-mv-icon-accent">
-                                        <i data-lucide="eye"></i>
+                                        <i class="fa-solid fa-eye"></i>
                                     </div>
                                     <h3>Our Vision</h3>
                                     <p>To become the most trusted compliance partner for businesses across India, known
@@ -910,11 +914,11 @@
                                         <span>Certified Tax Consultant</span>
                                     </div>
                                     <div class="about-credential">
-                                        <i data-lucide="briefcase"></i>
+                                        <i class="fa-solid fa-briefcase"></i>
                                         <span>10+ Years Practice</span>
                                     </div>
                                     <div class="about-credential">
-                                        <i data-lucide="users"></i>
+                                        <i class="fa-solid fa-users"></i>
                                         <span>100+ Clients Served</span>
                                     </div>
                                 </div>
@@ -948,25 +952,25 @@
                     </div>
                     <div class="values-grid">
                         <div class="value-card">
-                            <div class="value-icon"><i data-lucide="shield-check"></i></div>
+                            <div class="value-icon"><i class="fa-solid fa-shield-halved"></i></div>
                             <h3>Integrity</h3>
                             <p>We uphold the highest standards of honesty and transparency in every interaction and
                                 filing.</p>
                         </div>
                         <div class="value-card">
-                            <div class="value-icon"><i data-lucide="target"></i></div>
+                            <div class="value-icon"><i class="fa-solid fa-bullseye"></i></div>
                             <h3>Accuracy</h3>
                             <p>Precision in every document, every filing, every calculation. Zero tolerance for errors.
                             </p>
                         </div>
                         <div class="value-card">
-                            <div class="value-icon"><i data-lucide="heart"></i></div>
+                            <div class="value-icon"><i class="fa-solid fa-heart"></i></div>
                             <h3>Client First</h3>
                             <p>Your success is our priority. We go the extra mile to ensure your complete satisfaction.
                             </p>
                         </div>
                         <div class="value-card">
-                            <div class="value-icon"><i data-lucide="zap"></i></div>
+                            <div class="value-icon"><i class="fa-solid fa-bolt"></i></div>
                             <h3>Efficiency</h3>
                             <p>Streamlined processes and quick turnaround times without compromising quality.</p>
                         </div>
@@ -986,7 +990,7 @@
                         </div>
                         <div class="cta-actions">
                             <button class="btn btn-white btn-lg consult-trigger">
-                                <i data-lucide="calendar"></i>
+                                <i class="fa-solid fa-calendar"></i>
                                 Book Free Consultation
                             </button>
                         </div>
@@ -1091,7 +1095,7 @@
                         </div>
                         <div class="cta-actions">
                             <button class="btn btn-white btn-lg consult-trigger">
-                                <i data-lucide="calendar"></i>
+                                <i class="fa-solid fa-calendar"></i>
                                 Book Free Consultation
                             </button>
                         </div>
@@ -1125,7 +1129,7 @@
                     <div class="advantages-grid">
                         <div class="advantage-card">
                             <div class="advantage-number">01</div>
-                            <div class="advantage-icon"><i data-lucide="shield-check"></i></div>
+                            <div class="advantage-icon"><i class="fa-solid fa-shield-halved"></i></div>
                             <h3>Decade of Expertise</h3>
                             <p>With over 10 years in the industry, we have encountered and solved every type of tax and
                                 compliance challenge. Our experience translates to faster, more accurate results for
@@ -1133,14 +1137,14 @@
                         </div>
                         <div class="advantage-card">
                             <div class="advantage-number">02</div>
-                            <div class="advantage-icon"><i data-lucide="indian-rupee"></i></div>
+                            <div class="advantage-icon"><i class="fa-solid fa-indian-rupee-sign"></i></div>
                             <h3>Transparent Pricing</h3>
                             <p>No hidden charges, no surprise fees. We provide clear quotes upfront before any work
                                 begins. Our pricing is competitive and designed to suit businesses of all sizes.</p>
                         </div>
                         <div class="advantage-card">
                             <div class="advantage-number">03</div>
-                            <div class="advantage-icon"><i data-lucide="clock"></i></div>
+                            <div class="advantage-icon"><i class="fa-solid fa-clock"></i></div>
                             <h3>Always On Time</h3>
                             <p>Missing a compliance deadline can mean penalties. We track every deadline for you and
                                 ensure filings are completed well before due dates. Your peace of mind is our priority.
@@ -1148,14 +1152,14 @@
                         </div>
                         <div class="advantage-card">
                             <div class="advantage-number">04</div>
-                            <div class="advantage-icon"><i data-lucide="headphones"></i></div>
+                            <div class="advantage-icon"><i class="fa-solid fa-headset"></i></div>
                             <h3>Dedicated Support</h3>
                             <p>Get a dedicated point of contact who knows your case inside out. Reach us via phone,
                                 WhatsApp, email, or in-person meetings. We're always just a call away.</p>
                         </div>
                         <div class="advantage-card">
                             <div class="advantage-number">05</div>
-                            <div class="advantage-icon"><i data-lucide="lock"></i></div>
+                            <div class="advantage-icon"><i class="fa-solid fa-lock"></i></div>
                             <h3>Complete Confidentiality</h3>
                             <p>Your financial data and documents are handled with the highest level of security and
                                 discretion. We follow strict data protection protocols to safeguard your information.
@@ -1163,7 +1167,7 @@
                         </div>
                         <div class="advantage-card">
                             <div class="advantage-number">06</div>
-                            <div class="advantage-icon"><i data-lucide="map-pin"></i></div>
+                            <div class="advantage-icon"><i class="fa-solid fa-location-dot"></i></div>
                             <h3>Local Presence</h3>
                             <p>Based in Sheoraphuli, we understand the local business environment, municipal
                                 requirements, and regional compliance nuances better than any online-only service.</p>
@@ -1183,7 +1187,7 @@
                         </div>
                         <div class="cta-actions">
                             <button class="btn btn-white btn-lg consult-trigger">
-                                <i data-lucide="calendar"></i>
+                                <i class="fa-solid fa-calendar"></i>
                                 Book Free Consultation
                             </button>
                         </div>
@@ -1262,8 +1266,8 @@
                                 <li><i data-lucide="check"></i> PAN Card Application</li>
                                 <li><i data-lucide="check"></i> Basic Consultation</li>
                                 <li><i data-lucide="check"></i> Email Support</li>
-                                <li class="pricing-disabled"><i data-lucide="x"></i> GST Registration</li>
-                                <li class="pricing-disabled"><i data-lucide="x"></i> Company Registration</li>
+                                <li class="pricing-disabled"><i class="fa-solid fa-xmark"></i> GST Registration</li>
+                                <li class="pricing-disabled"><i class="fa-solid fa-xmark"></i> Company Registration</li>
                             </ul>
                             <button class="btn btn-outline btn-block consult-trigger">Get Started</button>
                         </div>
@@ -1321,7 +1325,7 @@
                         </div>
                         <div class="cta-actions">
                             <button class="btn btn-white btn-lg consult-trigger">
-                                <i data-lucide="calendar"></i>
+                                <i class="fa-solid fa-calendar"></i>
                                 Book Free Consultation
                             </button>
                         </div>
@@ -1358,7 +1362,7 @@
                     <div class="service-detail-grid">
                         <div class="service-detail-main">
                             <div class="service-detail-icon-large">
-                                <i data-lucide="file-text"></i>
+                                <i class="fa-solid fa-file-lines"></i>
                             </div>
                             <h2 class="service-detail-heading">What is GST Registration?</h2>
                             <p class="service-detail-text">GST (Goods and Services Tax) registration is mandatory for
@@ -1372,52 +1376,58 @@
 
                             <h3 class="service-detail-subheading">Who Needs GST Registration?</h3>
                             <ul class="service-detail-list">
-                                <li><i data-lucide="check-circle"></i> Businesses with annual turnover exceeding ₹40
+                                <li><i class="fa-solid fa-circle-check"></i> Businesses with annual turnover exceeding
+                                    ₹40
                                     lakhs (goods) or ₹20 lakhs (services)</li>
-                                <li><i data-lucide="check-circle"></i> Interstate suppliers of goods or services</li>
-                                <li><i data-lucide="check-circle"></i> E-commerce operators and aggregators</li>
-                                <li><i data-lucide="check-circle"></i> Casual taxable persons and non-resident taxable
-                                    persons</li>
-                                <li><i data-lucide="check-circle"></i> Agents of a supplier / Input service distributors
+                                <li><i class="fa-solid fa-circle-check"></i> Interstate suppliers of goods or services
                                 </li>
-                                <li><i data-lucide="check-circle"></i> Persons supplying online information, database
+                                <li><i class="fa-solid fa-circle-check"></i> E-commerce operators and aggregators</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Casual taxable persons and non-resident
+                                    taxable
+                                    persons</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Agents of a supplier / Input service
+                                    distributors
+                                </li>
+                                <li><i class="fa-solid fa-circle-check"></i> Persons supplying online information,
+                                    database
                                     access, or retrieval services</li>
-                                <li><i data-lucide="check-circle"></i> Compulsory registration categories as notified by
+                                <li><i class="fa-solid fa-circle-check"></i> Compulsory registration categories as
+                                    notified by
                                     the government</li>
                             </ul>
 
                             <h3 class="service-detail-subheading">Documents Required</h3>
                             <div class="service-docs-grid">
                                 <div class="service-doc-item">
-                                    <i data-lucide="credit-card"></i>
+                                    <i class="fa-solid fa-credit-card"></i>
                                     <span>PAN Card</span>
                                 </div>
                                 <div class="service-doc-item">
-                                    <i data-lucide="user"></i>
+                                    <i class="fa-solid fa-user"></i>
                                     <span>Aadhaar Card</span>
                                 </div>
                                 <div class="service-doc-item">
-                                    <i data-lucide="home"></i>
+                                    <i class="fa-solid fa-house"></i>
                                     <span>Address Proof</span>
                                 </div>
                                 <div class="service-doc-item">
-                                    <i data-lucide="building-2"></i>
+                                    <i class="fa-solid fa-building"></i>
                                     <span>Business Proof</span>
                                 </div>
                                 <div class="service-doc-item">
-                                    <i data-lucide="image"></i>
+                                    <i class="fa-solid fa-image"></i>
                                     <span>Photographs</span>
                                 </div>
                                 <div class="service-doc-item">
-                                    <i data-lucide="landmark"></i>
+                                    <i class="fa-solid fa-landmark"></i>
                                     <span>Bank Statement</span>
                                 </div>
                                 <div class="service-doc-item">
-                                    <i data-lucide="file-signature"></i>
+                                    <i class="fa-solid fa-file-signature"></i>
                                     <span>Authorization Letter</span>
                                 </div>
                                 <div class="service-doc-item">
-                                    <i data-lucide="stamp"></i>
+                                    <i class="fa-solid fa-stamp"></i>
                                     <span>Partnership Deed (if applicable)</span>
                                 </div>
                             </div>
@@ -1467,7 +1477,7 @@
 
                             <h3 class="service-detail-subheading">Penalty for Not Registering</h3>
                             <div class="service-warning-box">
-                                <i data-lucide="alert-triangle"></i>
+                                <i class="fa-solid fa-triangle-exclamation"></i>
                                 <div>
                                     <p>Businesses that are required to register under GST but fail to do so may face a
                                         penalty of <strong>10% of the tax amount</strong> (minimum ₹10,000) or the
@@ -1500,7 +1510,7 @@
                                 </div>
                                 <button class="btn btn-primary btn-block consult-trigger">Get Free Consultation</button>
                                 <a href="https://wa.me/919903575757" class="btn btn-whatsapp btn-block" target="_blank">
-                                    <i data-lucide="message-circle"></i>
+                                    <i class="fa-solid fa-comment-dots"></i>
                                     Chat on WhatsApp
                                 </a>
                             </div>
@@ -1546,11 +1556,11 @@
                         </div>
                         <div class="cta-actions">
                             <button class="btn btn-white btn-lg consult-trigger">
-                                <i data-lucide="calendar"></i>
+                                <i class="fa-solid fa-calendar"></i>
                                 Book Free Consultation
                             </button>
                             <a href="tel:9903575757" class="btn btn-glass-light btn-lg">
-                                <i data-lucide="phone"></i>
+                                <i class="fa-solid fa-phone"></i>
                                 Call 99035 75757
                             </a>
                         </div>
@@ -1587,7 +1597,7 @@
                     <div class="service-detail-grid">
                         <div class="service-detail-main">
                             <div class="service-detail-icon-large service-icon-blue">
-                                <i data-lucide="building-2"></i>
+                                <i class="fa-solid fa-building"></i>
                             </div>
                             <h2 class="service-detail-heading">Company Registration in India</h2>
                             <p class="service-detail-text">Company registration is the process of legally incorporating
@@ -1602,14 +1612,15 @@
                             <h3 class="service-detail-subheading">Types of Company Registration</h3>
                             <div class="service-types-grid">
                                 <div class="service-type-card">
-                                    <div class="service-type-icon"><i data-lucide="building-2"></i></div>
+                                    <div class="service-type-icon"><i class="fa-solid fa-building"></i></div>
                                     <h4>Private Limited</h4>
                                     <p>Most popular for startups and growing businesses. Limited liability, easy funding
                                         access, and credibility.</p>
                                     <span class="service-type-price">Starting ₹7,999</span>
                                 </div>
                                 <div class="service-type-card">
-                                    <div class="service-type-icon service-type-icon-alt"><i data-lucide="handshake"></i>
+                                    <div class="service-type-icon service-type-icon-alt"><i
+                                            class="fa-solid fa-handshake"></i>
                                     </div>
                                     <h4>LLP</h4>
                                     <p>Combines partnership flexibility with limited liability. Ideal for professional
@@ -1617,14 +1628,16 @@
                                     <span class="service-type-price">Starting ₹5,999</span>
                                 </div>
                                 <div class="service-type-card">
-                                    <div class="service-type-icon service-type-icon-alt2"><i data-lucide="user"></i>
+                                    <div class="service-type-icon service-type-icon-alt2"><i
+                                            class="fa-solid fa-user"></i>
                                     </div>
                                     <h4>OPC</h4>
                                     <p>Single-person company with limited liability. Perfect for solo entrepreneurs.</p>
                                     <span class="service-type-price">Starting ₹6,499</span>
                                 </div>
                                 <div class="service-type-card">
-                                    <div class="service-type-icon service-type-icon-alt3"><i data-lucide="heart"></i>
+                                    <div class="service-type-icon service-type-icon-alt3"><i
+                                            class="fa-solid fa-heart"></i>
                                     </div>
                                     <h4>Section 8</h4>
                                     <p>For non-profit organizations, charities, and NGOs. Tax exemptions available.</p>
@@ -1634,15 +1647,16 @@
 
                             <h3 class="service-detail-subheading">Documents Required for Pvt Ltd Company</h3>
                             <ul class="service-detail-list">
-                                <li><i data-lucide="check-circle"></i> PAN Card of all directors</li>
-                                <li><i data-lucide="check-circle"></i> Aadhaar Card / Passport / Voter ID</li>
-                                <li><i data-lucide="check-circle"></i> Passport-size photographs</li>
-                                <li><i data-lucide="check-circle"></i> Registered office address proof (Electricity bill
+                                <li><i class="fa-solid fa-circle-check"></i> PAN Card of all directors</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Aadhaar Card / Passport / Voter ID</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Passport-size photographs</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Registered office address proof
+                                    (Electricity bill
                                     / Rent agreement)</li>
-                                <li><i data-lucide="check-circle"></i> Bank statement of directors</li>
-                                <li><i data-lucide="check-circle"></i> NOC from property owner</li>
-                                <li><i data-lucide="check-circle"></i> Digital Signature Certificate (DSC)</li>
-                                <li><i data-lucide="check-circle"></i> Director Identification Number (DIN)</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Bank statement of directors</li>
+                                <li><i class="fa-solid fa-circle-check"></i> NOC from property owner</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Digital Signature Certificate (DSC)</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Director Identification Number (DIN)</li>
                             </ul>
 
                             <h3 class="service-detail-subheading">Our Process</h3>
@@ -1713,7 +1727,7 @@
                                 </div>
                                 <button class="btn btn-primary btn-block consult-trigger">Get Free Consultation</button>
                                 <a href="https://wa.me/919903575757" class="btn btn-whatsapp btn-block" target="_blank">
-                                    <i data-lucide="message-circle"></i>
+                                    <i class="fa-solid fa-comment-dots"></i>
                                     Chat on WhatsApp
                                 </a>
                             </div>
@@ -1753,7 +1767,7 @@
                         </div>
                         <div class="cta-actions">
                             <button class="btn btn-white btn-lg consult-trigger">
-                                <i data-lucide="calendar"></i>
+                                <i class="fa-solid fa-calendar"></i>
                                 Book Free Consultation
                             </button>
                         </div>
@@ -1790,7 +1804,7 @@
                     <div class="service-detail-grid">
                         <div class="service-detail-main">
                             <div class="service-detail-icon-large service-icon-orange">
-                                <i data-lucide="calculator"></i>
+                                <i class="fa-solid fa-calculator"></i>
                             </div>
                             <h2 class="service-detail-heading">Income Tax Return Filing</h2>
                             <p class="service-detail-text">Filing Income Tax Return (ITR) is a legal obligation for
@@ -1804,17 +1818,23 @@
 
                             <h3 class="service-detail-subheading">Who Should File ITR?</h3>
                             <ul class="service-detail-list">
-                                <li><i data-lucide="check-circle"></i> Individuals with annual income above ₹2.5 lakhs
+                                <li><i class="fa-solid fa-circle-check"></i> Individuals with annual income above ₹2.5
+                                    lakhs
                                     (old regime) / ₹3 lakhs (new regime)</li>
-                                <li><i data-lucide="check-circle"></i> Companies and firms (mandatory, regardless of
+                                <li><i class="fa-solid fa-circle-check"></i> Companies and firms (mandatory, regardless
+                                    of
                                     income)</li>
-                                <li><i data-lucide="check-circle"></i> Individuals claiming tax refunds</li>
-                                <li><i data-lucide="check-circle"></i> Individuals with foreign assets or income</li>
-                                <li><i data-lucide="check-circle"></i> Persons who have deposited ₹1 crore+ in current
+                                <li><i class="fa-solid fa-circle-check"></i> Individuals claiming tax refunds</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Individuals with foreign assets or income
+                                </li>
+                                <li><i class="fa-solid fa-circle-check"></i> Persons who have deposited ₹1 crore+ in
+                                    current
                                     account</li>
-                                <li><i data-lucide="check-circle"></i> Persons with electricity expenditure exceeding ₹1
+                                <li><i class="fa-solid fa-circle-check"></i> Persons with electricity expenditure
+                                    exceeding ₹1
                                     lakh</li>
-                                <li><i data-lucide="check-circle"></i> Persons with foreign travel expenditure exceeding
+                                <li><i class="fa-solid fa-circle-check"></i> Persons with foreign travel expenditure
+                                    exceeding
                                     ₹2 lakhs</li>
                             </ul>
 
@@ -1852,27 +1872,27 @@
                             <h3 class="service-detail-subheading">Documents Required</h3>
                             <div class="service-docs-grid">
                                 <div class="service-doc-item">
-                                    <i data-lucide="credit-card"></i>
+                                    <i class="fa-solid fa-credit-card"></i>
                                     <span>PAN Card</span>
                                 </div>
                                 <div class="service-doc-item">
-                                    <i data-lucide="file-text"></i>
+                                    <i class="fa-solid fa-file-lines"></i>
                                     <span>Form 16 / 16A</span>
                                 </div>
                                 <div class="service-doc-item">
-                                    <i data-lucide="landmark"></i>
+                                    <i class="fa-solid fa-landmark"></i>
                                     <span>Bank Statements</span>
                                 </div>
                                 <div class="service-doc-item">
-                                    <i data-lucide="home"></i>
+                                    <i class="fa-solid fa-house"></i>
                                     <span>Property Details</span>
                                 </div>
                                 <div class="service-doc-item">
-                                    <i data-lucide="trending-up"></i>
+                                    <i class="fa-solid fa-arrow-trend-up"></i>
                                     <span>Investment Proofs</span>
                                 </div>
                                 <div class="service-doc-item">
-                                    <i data-lucide="receipt"></i>
+                                    <i class="fa-solid fa-receipt"></i>
                                     <span>TDS Certificates</span>
                                 </div>
                             </div>
@@ -1935,7 +1955,7 @@
                                 </div>
                                 <button class="btn btn-primary btn-block consult-trigger">Get Free Consultation</button>
                                 <a href="https://wa.me/919903575757" class="btn btn-whatsapp btn-block" target="_blank">
-                                    <i data-lucide="message-circle"></i>
+                                    <i class="fa-solid fa-comment-dots"></i>
                                     Chat on WhatsApp
                                 </a>
                             </div>
@@ -1974,7 +1994,7 @@
                         </div>
                         <div class="cta-actions">
                             <button class="btn btn-white btn-lg consult-trigger">
-                                <i data-lucide="calendar"></i>
+                                <i class="fa-solid fa-calendar"></i>
                                 File My ITR Now
                             </button>
                         </div>
@@ -2011,7 +2031,7 @@
                     <div class="service-detail-grid">
                         <div class="service-detail-main">
                             <div class="service-detail-icon-large service-icon-green">
-                                <i data-lucide="check-circle"></i>
+                                <i class="fa-solid fa-circle-check"></i>
                             </div>
                             <h2 class="service-detail-heading">FSSAI Food License Registration</h2>
                             <p class="service-detail-text">FSSAI (Food Safety and Standards Authority of India)
@@ -2025,14 +2045,15 @@
                             <h3 class="service-detail-subheading">Types of FSSAI License</h3>
                             <div class="service-types-grid">
                                 <div class="service-type-card">
-                                    <div class="service-type-icon"><i data-lucide="check-circle"></i></div>
+                                    <div class="service-type-icon"><i class="fa-solid fa-circle-check"></i></div>
                                     <h4>Basic Registration</h4>
                                     <p>For small food businesses with annual turnover up to ₹12 lakhs. Simple process,
                                         quick approval.</p>
                                     <span class="service-type-price">Starting ₹1,499</span>
                                 </div>
                                 <div class="service-type-card">
-                                    <div class="service-type-icon service-type-icon-alt"><i data-lucide="file-text"></i>
+                                    <div class="service-type-icon service-type-icon-alt"><i
+                                            class="fa-solid fa-file-lines"></i>
                                     </div>
                                     <h4>State License</h4>
                                     <p>For medium food businesses with turnover between ₹12 lakhs and ₹20 crores.
@@ -2041,7 +2062,7 @@
                                 </div>
                                 <div class="service-type-card">
                                     <div class="service-type-icon service-type-icon-alt2"><i
-                                            data-lucide="building-2"></i></div>
+                                            class="fa-solid fa-building"></i></div>
                                     <h4>Central License</h4>
                                     <p>For large food businesses with turnover above ₹20 crores. Also required for
                                         import/export of food.</p>
@@ -2051,14 +2072,16 @@
 
                             <h3 class="service-detail-subheading">Documents Required</h3>
                             <ul class="service-detail-list">
-                                <li><i data-lucide="check-circle"></i> PAN Card of applicant</li>
-                                <li><i data-lucide="check-circle"></i> Identity proof (Aadhaar / Voter ID / Passport)
+                                <li><i class="fa-solid fa-circle-check"></i> PAN Card of applicant</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Identity proof (Aadhaar / Voter ID /
+                                    Passport)
                                 </li>
-                                <li><i data-lucide="check-circle"></i> Address proof of business premises</li>
-                                <li><i data-lucide="check-circle"></i> Food safety management system plan</li>
-                                <li><i data-lucide="check-circle"></i> Photographs of premises</li>
-                                <li><i data-lucide="check-circle"></i> List of food products to be handled</li>
-                                <li><i data-lucide="check-circle"></i> NOC from municipality (for state/central license)
+                                <li><i class="fa-solid fa-circle-check"></i> Address proof of business premises</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Food safety management system plan</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Photographs of premises</li>
+                                <li><i class="fa-solid fa-circle-check"></i> List of food products to be handled</li>
+                                <li><i class="fa-solid fa-circle-check"></i> NOC from municipality (for state/central
+                                    license)
                                 </li>
                             </ul>
 
@@ -2097,7 +2120,7 @@
                             </div>
 
                             <div class="service-warning-box">
-                                <i data-lucide="alert-triangle"></i>
+                                <i class="fa-solid fa-triangle-exclamation"></i>
                                 <div>
                                     <p>Operating without FSSAI license can result in a penalty of <strong>up to ₹5
                                             lakhs</strong> and imprisonment. Renew your license before expiry to avoid
@@ -2129,7 +2152,7 @@
                                 </div>
                                 <button class="btn btn-primary btn-block consult-trigger">Get Free Consultation</button>
                                 <a href="https://wa.me/919903575757" class="btn btn-whatsapp btn-block" target="_blank">
-                                    <i data-lucide="message-circle"></i>
+                                    <i class="fa-solid fa-comment-dots"></i>
                                     Chat on WhatsApp
                                 </a>
                             </div>
@@ -2169,7 +2192,7 @@
                         </div>
                         <div class="cta-actions">
                             <button class="btn btn-white btn-lg consult-trigger">
-                                <i data-lucide="calendar"></i>
+                                <i class="fa-solid fa-calendar"></i>
                                 Book Free Consultation
                             </button>
                         </div>
@@ -2206,7 +2229,7 @@
                     <div class="service-detail-grid">
                         <div class="service-detail-main">
                             <div class="service-detail-icon-large service-icon-indigo">
-                                <i data-lucide="stamp"></i>
+                                <i class="fa-solid fa-stamp"></i>
                             </div>
                             <h2 class="service-detail-heading">Municipal Trade Licence</h2>
                             <p class="service-detail-text">A Trade Licence is a mandatory permit issued by the local
@@ -2218,38 +2241,39 @@
 
                             <h3 class="service-detail-subheading">Who Needs a Trade Licence?</h3>
                             <ul class="service-detail-list">
-                                <li><i data-lucide="check-circle"></i> All shops and commercial establishments</li>
-                                <li><i data-lucide="check-circle"></i> Restaurants, hotels, and food vendors</li>
-                                <li><i data-lucide="check-circle"></i> Manufacturing and processing units</li>
-                                <li><i data-lucide="check-circle"></i> Professional service providers</li>
-                                <li><i data-lucide="check-circle"></i> Wholesalers and retailers</li>
-                                <li><i data-lucide="check-circle"></i> Storage and warehousing businesses</li>
+                                <li><i class="fa-solid fa-circle-check"></i> All shops and commercial establishments
+                                </li>
+                                <li><i class="fa-solid fa-circle-check"></i> Restaurants, hotels, and food vendors</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Manufacturing and processing units</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Professional service providers</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Wholesalers and retailers</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Storage and warehousing businesses</li>
                             </ul>
 
                             <h3 class="service-detail-subheading">Documents Required</h3>
                             <div class="service-docs-grid">
                                 <div class="service-doc-item">
-                                    <i data-lucide="credit-card"></i>
+                                    <i class="fa-solid fa-credit-card"></i>
                                     <span>PAN Card</span>
                                 </div>
                                 <div class="service-doc-item">
-                                    <i data-lucide="user"></i>
+                                    <i class="fa-solid fa-user"></i>
                                     <span>Identity Proof</span>
                                 </div>
                                 <div class="service-doc-item">
-                                    <i data-lucide="home"></i>
+                                    <i class="fa-solid fa-house"></i>
                                     <span>Address Proof</span>
                                 </div>
                                 <div class="service-doc-item">
-                                    <i data-lucide="file-text"></i>
+                                    <i class="fa-solid fa-file-lines"></i>
                                     <span>Rent Agreement</span>
                                 </div>
                                 <div class="service-doc-item">
-                                    <i data-lucide="image"></i>
+                                    <i class="fa-solid fa-image"></i>
                                     <span>Photographs</span>
                                 </div>
                                 <div class="service-doc-item">
-                                    <i data-lucide="landmark"></i>
+                                    <i class="fa-solid fa-landmark"></i>
                                     <span>NOC from Landlord</span>
                                 </div>
                             </div>
@@ -2314,7 +2338,7 @@
                                 </div>
                                 <button class="btn btn-primary btn-block consult-trigger">Get Free Consultation</button>
                                 <a href="https://wa.me/919903575757" class="btn btn-whatsapp btn-block" target="_blank">
-                                    <i data-lucide="message-circle"></i>
+                                    <i class="fa-solid fa-comment-dots"></i>
                                     Chat on WhatsApp
                                 </a>
                             </div>
@@ -2354,7 +2378,7 @@
                         </div>
                         <div class="cta-actions">
                             <button class="btn btn-white btn-lg consult-trigger">
-                                <i data-lucide="calendar"></i>
+                                <i class="fa-solid fa-calendar"></i>
                                 Book Free Consultation
                             </button>
                         </div>
@@ -2364,6 +2388,7 @@
 
         </section>
         <!-- END TRADE LICENCE PAGE -->
+
 
 
         <!-- ==================== PROCESS PAGE ==================== -->
@@ -2390,18 +2415,21 @@
                         <div class="process-timeline-item">
                             <div class="process-timeline-dot">1</div>
                             <div class="process-timeline-content">
-                                <div class="process-timeline-icon"><i data-lucide="message-circle"></i></div>
+                                <div class="process-timeline-icon"><i class="fa-solid fa-comment-dots"></i></div>
                                 <h3>Initial Consultation</h3>
                                 <p>Every engagement begins with a free, no-obligation consultation. We listen to your
                                     needs, understand your business structure, and identify all applicable compliance
                                     requirements. This helps us create a tailored action plan for your specific
                                     situation.</p>
                                 <div class="process-timeline-details">
-                                    <div class="process-detail-tag"><i data-lucide="clock"></i> Duration: 30-60 minutes
+                                    <div class="process-detail-tag"><i class="fa-solid fa-clock"></i> Duration: 30-60
+                                        minutes
                                     </div>
-                                    <div class="process-detail-tag"><i data-lucide="check-circle"></i> Free of charge
+                                    <div class="process-detail-tag"><i class="fa-solid fa-circle-check"></i> Free of
+                                        charge
                                     </div>
-                                    <div class="process-detail-tag"><i data-lucide="map-pin"></i> In-person / Phone /
+                                    <div class="process-detail-tag"><i class="fa-solid fa-location-dot"></i> In-person /
+                                        Phone /
                                         Video</div>
                                 </div>
                             </div>
@@ -2409,33 +2437,37 @@
                         <div class="process-timeline-item">
                             <div class="process-timeline-dot">2</div>
                             <div class="process-timeline-content">
-                                <div class="process-timeline-icon"><i data-lucide="file-check"></i></div>
+                                <div class="process-timeline-icon"><i class="fa-solid fa-file-circle-check"></i></div>
                                 <h3>Document Collection & Verification</h3>
                                 <p>Once you decide to proceed, we provide a clear checklist of required documents. Our
                                     team collects, verifies, and organizes everything to ensure a smooth filing process.
                                     We handle all the paperwork — you just provide the basic documents.</p>
                                 <div class="process-timeline-details">
-                                    <div class="process-detail-tag"><i data-lucide="shield-check"></i> Secure handling
+                                    <div class="process-detail-tag"><i class="fa-solid fa-shield-halved"></i> Secure
+                                        handling
                                     </div>
-                                    <div class="process-detail-tag"><i data-lucide="check-circle"></i> Complete
+                                    <div class="process-detail-tag"><i class="fa-solid fa-circle-check"></i> Complete
                                         verification</div>
-                                    <div class="process-detail-tag"><i data-lucide="lock"></i> Confidential</div>
+                                    <div class="process-detail-tag"><i class="fa-solid fa-lock"></i> Confidential</div>
                                 </div>
                             </div>
                         </div>
                         <div class="process-timeline-item">
                             <div class="process-timeline-dot">3</div>
                             <div class="process-timeline-content">
-                                <div class="process-timeline-icon"><i data-lucide="settings"></i></div>
+                                <div class="process-timeline-icon"><i class="fa-solid fa-gear"></i></div>
                                 <h3>Processing & Filing</h3>
                                 <p>Our expert team handles all filings, registrations, and submissions on your behalf.
                                     We double-check every detail before submission to ensure zero errors. You'll receive
                                     regular status updates throughout the process.</p>
                                 <div class="process-timeline-details">
-                                    <div class="process-detail-tag"><i data-lucide="check-circle"></i> Zero-error filing
+                                    <div class="process-detail-tag"><i class="fa-solid fa-circle-check"></i> Zero-error
+                                        filing
                                     </div>
-                                    <div class="process-detail-tag"><i data-lucide="bell"></i> Regular updates</div>
-                                    <div class="process-detail-tag"><i data-lucide="zap"></i> Fast processing</div>
+                                    <div class="process-detail-tag"><i class="fa-solid fa-bell"></i> Regular updates
+                                    </div>
+                                    <div class="process-detail-tag"><i class="fa-solid fa-bolt"></i> Fast processing
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -2443,7 +2475,7 @@
                             <div class="process-timeline-dot process-timeline-dot-accent">4</div>
                             <div class="process-timeline-content">
                                 <div class="process-timeline-icon process-timeline-icon-accent"><i
-                                        data-lucide="check-circle"></i></div>
+                                        class="fa-solid fa-circle-check"></i></div>
                                 <h3>Delivery & Ongoing Support</h3>
                                 <p>Once approved, you receive your certificates, registration numbers, and
                                     acknowledgements promptly. But our relationship doesn't end there — we provide
@@ -2452,9 +2484,10 @@
                                 <div class="process-timeline-details">
                                     <div class="process-detail-tag"><i data-lucide="bell-ring"></i> Deadline reminders
                                     </div>
-                                    <div class="process-detail-tag"><i data-lucide="headphones"></i> Ongoing support
+                                    <div class="process-detail-tag"><i class="fa-solid fa-headset"></i> Ongoing support
                                     </div>
-                                    <div class="process-detail-tag"><i data-lucide="trending-up"></i> Growth advisory
+                                    <div class="process-detail-tag"><i class="fa-solid fa-arrow-trend-up"></i> Growth
+                                        advisory
                                     </div>
                                 </div>
                             </div>
@@ -2474,7 +2507,7 @@
                         </div>
                         <div class="cta-actions">
                             <button class="btn btn-white btn-lg consult-trigger">
-                                <i data-lucide="calendar"></i>
+                                <i class="fa-solid fa-calendar"></i>
                                 Book Free Consultation
                             </button>
                         </div>
@@ -2510,14 +2543,14 @@
                             class="blog-listing-card blog-listing-featured">
                             <div class="blog-listing-image"
                                 style="background: linear-gradient(135deg, var(--color-blue-600), var(--color-blue-800));">
-                                <div class="blog-listing-image-icon"><i data-lucide="receipt"></i></div>
+                                <div class="blog-listing-image-icon"><i class="fa-solid fa-receipt"></i></div>
                                 <div class="blog-listing-category">Tax Guide</div>
                             </div>
                             <div class="blog-listing-content">
                                 <div class="blog-listing-meta">
-                                    <span><i data-lucide="calendar"></i> Dec 15, 2024</span>
-                                    <span><i data-lucide="clock"></i> 8 min read</span>
-                                    <span><i data-lucide="user"></i> Prabin Kumar Saha</span>
+                                    <span><i class="fa-solid fa-calendar"></i> Dec 15, 2025</span>
+                                    <span><i class="fa-solid fa-clock"></i> 8 min read</span>
+                                    <span><i class="fa-solid fa-user"></i> Prabin Kumar Saha</span>
                                 </div>
                                 <h3 class="blog-listing-title">Complete Guide to GST Registration in India 2025</h3>
                                 <p class="blog-listing-excerpt">Everything you need to know about GST registration —
@@ -2528,13 +2561,13 @@
                         <a href="#blog-itr-filing" data-route="blog-itr-filing" class="blog-listing-card">
                             <div class="blog-listing-image"
                                 style="background: linear-gradient(135deg, var(--color-orange-500), var(--color-orange-700));">
-                                <div class="blog-listing-image-icon"><i data-lucide="calculator"></i></div>
+                                <div class="blog-listing-image-icon"><i class="fa-solid fa-calculator"></i></div>
                                 <div class="blog-listing-category">Tax Filing</div>
                             </div>
                             <div class="blog-listing-content">
                                 <div class="blog-listing-meta">
-                                    <span><i data-lucide="calendar"></i> Dec 10, 2024</span>
-                                    <span><i data-lucide="clock"></i> 6 min read</span>
+                                    <span><i class="fa-solid fa-calendar"></i> Dec 10, 2025</span>
+                                    <span><i class="fa-solid fa-clock"></i> 6 min read</span>
                                 </div>
                                 <h3 class="blog-listing-title">How to File Income Tax Return: Step-by-Step Guide</h3>
                                 <p class="blog-listing-excerpt">A simplified guide for individuals and businesses to
@@ -2545,13 +2578,13 @@
                             class="blog-listing-card">
                             <div class="blog-listing-image"
                                 style="background: linear-gradient(135deg, var(--color-green-500), var(--color-green-700));">
-                                <div class="blog-listing-image-icon"><i data-lucide="building-2"></i></div>
+                                <div class="blog-listing-image-icon"><i class="fa-solid fa-building"></i></div>
                                 <div class="blog-listing-category">Business</div>
                             </div>
                             <div class="blog-listing-content">
                                 <div class="blog-listing-meta">
-                                    <span><i data-lucide="calendar"></i> Dec 5, 2024</span>
-                                    <span><i data-lucide="clock"></i> 10 min read</span>
+                                    <span><i class="fa-solid fa-calendar"></i> Dec 5, 2025</span>
+                                    <span><i class="fa-solid fa-clock"></i> 10 min read</span>
                                 </div>
                                 <h3 class="blog-listing-title">Choosing the Right Business Structure in India</h3>
                                 <p class="blog-listing-excerpt">Compare Pvt Ltd, LLP, Partnership, and Sole
@@ -2561,13 +2594,13 @@
                         <a href="#blog-gst-guide" data-route="blog-gst-guide" class="blog-listing-card">
                             <div class="blog-listing-image"
                                 style="background: linear-gradient(135deg, var(--color-purple-500), var(--color-purple-700));">
-                                <div class="blog-listing-image-icon"><i data-lucide="shield-check"></i></div>
+                                <div class="blog-listing-image-icon"><i class="fa-solid fa-shield-halved"></i></div>
                                 <div class="blog-listing-category">Compliance</div>
                             </div>
                             <div class="blog-listing-content">
                                 <div class="blog-listing-meta">
-                                    <span><i data-lucide="calendar"></i> Nov 28, 2024</span>
-                                    <span><i data-lucide="clock"></i> 5 min read</span>
+                                    <span><i class="fa-solid fa-calendar"></i> Nov 28, 2025</span>
+                                    <span><i class="fa-solid fa-clock"></i> 5 min read</span>
                                 </div>
                                 <h3 class="blog-listing-title">Top 5 Compliance Mistakes Small Businesses Make</h3>
                                 <p class="blog-listing-excerpt">Avoid these common pitfalls that can cost your business
@@ -2577,13 +2610,13 @@
                         <a href="#blog-itr-filing" data-route="blog-itr-filing" class="blog-listing-card">
                             <div class="blog-listing-image"
                                 style="background: linear-gradient(135deg, var(--color-indigo-500), var(--color-indigo-700));">
-                                <div class="blog-listing-image-icon"><i data-lucide="trending-up"></i></div>
+                                <div class="blog-listing-image-icon"><i class="fa-solid fa-arrow-trend-up"></i></div>
                                 <div class="blog-listing-category">Tax Planning</div>
                             </div>
                             <div class="blog-listing-content">
                                 <div class="blog-listing-meta">
-                                    <span><i data-lucide="calendar"></i> Nov 20, 2024</span>
-                                    <span><i data-lucide="clock"></i> 7 min read</span>
+                                    <span><i class="fa-solid fa-calendar"></i> Nov 20, 2025</span>
+                                    <span><i class="fa-solid fa-clock"></i> 7 min read</span>
                                 </div>
                                 <h3 class="blog-listing-title">Old vs New Tax Regime: Which One Saves You More?</h3>
                                 <p class="blog-listing-excerpt">A detailed comparison to help you choose the tax regime
@@ -2623,9 +2656,9 @@
                     <div class="blog-article-layout">
                         <article class="blog-article">
                             <div class="blog-article-meta">
-                                <span><i data-lucide="calendar"></i> December 15, 2024</span>
-                                <span><i data-lucide="clock"></i> 8 min read</span>
-                                <span><i data-lucide="user"></i> Prabin Kumar Saha</span>
+                                <span><i class="fa-solid fa-calendar"></i> December 15, 2025</span>
+                                <span><i class="fa-solid fa-clock"></i> 8 min read</span>
+                                <span><i class="fa-solid fa-user"></i> Prabin Kumar Saha</span>
                             </div>
 
                             <p class="blog-article-lead">Goods and Services Tax (GST) is India's biggest indirect tax
@@ -2736,9 +2769,9 @@
                     <div class="blog-article-layout">
                         <article class="blog-article">
                             <div class="blog-article-meta">
-                                <span><i data-lucide="calendar"></i> December 10, 2024</span>
-                                <span><i data-lucide="clock"></i> 6 min read</span>
-                                <span><i data-lucide="user"></i> Prabin Kumar Saha</span>
+                                <span><i class="fa-solid fa-calendar"></i> December 10, 2025</span>
+                                <span><i class="fa-solid fa-clock"></i> 6 min read</span>
+                                <span><i class="fa-solid fa-user"></i> Prabin Kumar Saha</span>
                             </div>
 
                             <p class="blog-article-lead">Filing your Income Tax Return (ITR) doesn't have to be
@@ -2825,9 +2858,9 @@
                     <div class="blog-article-layout">
                         <article class="blog-article">
                             <div class="blog-article-meta">
-                                <span><i data-lucide="calendar"></i> December 5, 2024</span>
-                                <span><i data-lucide="clock"></i> 10 min read</span>
-                                <span><i data-lucide="user"></i> Prabin Kumar Saha</span>
+                                <span><i class="fa-solid fa-calendar"></i> December 5, 2025</span>
+                                <span><i class="fa-solid fa-clock"></i> 10 min read</span>
+                                <span><i class="fa-solid fa-user"></i> Prabin Kumar Saha</span>
                             </div>
 
                             <p class="blog-article-lead">Choosing the right business structure is one of the most
@@ -2946,7 +2979,7 @@
 
                             <div class="contact-info-cards">
                                 <div class="contact-info-card">
-                                    <div class="contact-info-icon"><i data-lucide="map-pin"></i></div>
+                                    <div class="contact-info-icon"><i class="fa-solid fa-location-dot"></i></div>
                                     <div>
                                         <h4>Our Office</h4>
                                         <p>Near Udayan Cinema Hall,<br />Sheoraphuli, Hooghly,<br />West Bengal - 712223
@@ -2954,21 +2987,21 @@
                                     </div>
                                 </div>
                                 <div class="contact-info-card">
-                                    <div class="contact-info-icon"><i data-lucide="phone"></i></div>
+                                    <div class="contact-info-icon"><i class="fa-solid fa-phone"></i></div>
                                     <div>
                                         <h4>Call Us</h4>
                                         <p><a href="tel:9903575757">99035 75757</a></p>
                                     </div>
                                 </div>
                                 <div class="contact-info-card">
-                                    <div class="contact-info-icon"><i data-lucide="mail"></i></div>
+                                    <div class="contact-info-icon"><i class="fa-solid fa-envelope"></i></div>
                                     <div>
                                         <h4>Email Us</h4>
                                         <p><a href="mailto:webtrends57@gmail.com">webtrends57@gmail.com</a></p>
                                     </div>
                                 </div>
                                 <div class="contact-info-card">
-                                    <div class="contact-info-icon"><i data-lucide="clock"></i></div>
+                                    <div class="contact-info-icon"><i class="fa-solid fa-clock"></i></div>
                                     <div>
                                         <h4>Working Hours</h4>
                                         <p>Mon - Sat: 10:00 AM - 8:00 PM<br />Sun: By Appointment</p>
@@ -2977,10 +3010,10 @@
                             </div>
 
                             <div class="contact-social">
-                                <a href="#" class="contact-social-icon"><i data-lucide="facebook"></i></a>
-                                <a href="#" class="contact-social-icon"><i data-lucide="instagram"></i></a>
-                                <a href="#" class="contact-social-icon"><i data-lucide="linkedin"></i></a>
-                                <a href="#" class="contact-social-icon"><i data-lucide="youtube"></i></a>
+                                <a href="#" class="contact-social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" class="contact-social-icon"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#" class="contact-social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#" class="contact-social-icon"><i class="fa-brands fa-youtube"></i></a>
                             </div>
                         </div>
 
@@ -3026,7 +3059,7 @@
                                             placeholder="Describe your query or requirement in detail..."></textarea>
                                     </div>
                                     <button type="submit" class="btn btn-primary btn-block">
-                                        Send Message <i data-lucide="send"></i>
+                                        Send Message <i class="fa-solid fa-paper-plane"></i>
                                     </button>
                                 </form>
                             </div>
@@ -3071,7 +3104,7 @@
             <div class="section section-white">
                 <div class="container">
                     <div class="legal-content">
-                        <p class="legal-updated">Last updated: December 15, 2024</p>
+                        <p class="legal-updated">Last updated: December 15, 2025</p>
 
                         <h2>1. Introduction</h2>
                         <p>Welcome to Web Trends ("we," "our," or "us"). We respect your privacy and are committed to
@@ -3172,7 +3205,7 @@
             <div class="section section-white">
                 <div class="container">
                     <div class="legal-content">
-                        <p class="legal-updated">Last updated: December 15, 2024</p>
+                        <p class="legal-updated">Last updated: December 15, 2025</p>
 
                         <h2>1. Acceptance of Terms</h2>
                         <p>By accessing the website of Web Trends and/or engaging our services, you agree to be bound by
@@ -3257,7 +3290,7 @@
             <div class="section section-white">
                 <div class="container">
                     <div class="legal-content">
-                        <p class="legal-updated">Last updated: December 15, 2024</p>
+                        <p class="legal-updated">Last updated: December 15, 2025</p>
 
                         <h2>1. Overview</h2>
                         <p>At Web Trends, we strive to deliver the highest quality tax and compliance services. We
@@ -3331,7 +3364,7 @@
             <div class="section section-white">
                 <div class="container">
                     <div class="legal-content">
-                        <p class="legal-updated">Last updated: December 15, 2024</p>
+                        <p class="legal-updated">Last updated: December 15, 2025</p>
 
                         <h2>1. General Information</h2>
                         <p>The information provided on the Web Trends website is for general informational purposes
@@ -3394,22 +3427,27 @@
             <div class="footer-grid">
                 <div class="footer-col footer-brand">
                     <div class="footer-logo">
-                        <div class="nav-logo-icon">
+                        <img src="https://raw.githubusercontent.com/rolsex946/wt/refs/heads/main/image.png"
+                            alt="webtrends.co.in logo" srcset="" width="130px">
+                        <!-- <div class="nav-logo-icon">
                             <span class="nav-logo-w">W</span><span class="nav-logo-eb">EB</span>
                         </div>
                         <div class="nav-logo-text">
                             <span class="nav-logo-name">TRENDS</span>
                             <span class="nav-logo-tagline">Tax Help & Support</span>
-                        </div>
+                        </div> -->
                     </div>
                     <p class="footer-brand-text">Your reliable partner for all taxation, legal, and business
                         registration needs. Serving clients across Hooghly and West Bengal since 2014.</p>
                     <div class="footer-social">
-                        <a href="#" class="footer-social-icon" aria-label="Facebook"><i data-lucide="facebook"></i></a>
-                        <a href="#" class="footer-social-icon" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                        <a href="#" class="footer-social-icon" aria-label="Facebook"><i
+                                class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="footer-social-icon" aria-label="LinkedIn"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
                         <a href="#" class="footer-social-icon" aria-label="Instagram"><i
-                                data-lucide="instagram"></i></a>
-                        <a href="#" class="footer-social-icon" aria-label="YouTube"><i data-lucide="youtube"></i></a>
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="footer-social-icon" aria-label="YouTube"><i
+                                class="fa-brands fa-youtube"></i></a>
                     </div>
                 </div>
 
@@ -3443,19 +3481,19 @@
                     <h3 class="footer-heading">Contact Info</h3>
                     <ul class="footer-contact">
                         <li>
-                            <i data-lucide="map-pin"></i>
+                            <i class="fa-solid fa-location-dot"></i>
                             <span>Near Udayan Cinema Hall, Sheoraphuli, Hooghly - 712223</span>
                         </li>
                         <li>
-                            <i data-lucide="phone"></i>
+                            <i class="fa-solid fa-phone"></i>
                             <a href="tel:9903575757">99035 75757</a>
                         </li>
                         <li>
-                            <i data-lucide="mail"></i>
+                            <i class="fa-solid fa-envelope"></i>
                             <a href="mailto:webtrends57@gmail.com">webtrends57@gmail.com</a>
                         </li>
                         <li>
-                            <i data-lucide="clock"></i>
+                            <i class="fa-solid fa-clock"></i>
                             <span>Mon - Sat: 10:00 AM - 8:00 PM</span>
                         </li>
                     </ul>
@@ -3478,12 +3516,12 @@
 
     <!-- ===== FLOATING WHATSAPP BUTTON ===== -->
     <a href="https://wa.me/919903575757" target="_blank" class="floating-wa" aria-label="Chat on WhatsApp">
-        <i data-lucide="message-circle"></i>
+        <i class="fa-solid fa-comment-dots"></i>
     </a>
 
     <!-- ===== FLOATING CONSULTATION BUTTON ===== -->
     <button class="floating-consult consult-trigger" aria-label="Book Free Consultation">
-        <i data-lucide="calendar"></i>
+        <i class="fa-solid fa-calendar"></i>
         <span class="floating-consult-text">Free Consultation</span>
     </button>
 
@@ -3497,7 +3535,7 @@
                     <p class="modal-subtitle">Fill in your details and we'll connect with you shortly via WhatsApp.</p>
                 </div>
                 <button class="modal-close" id="modal-close-btn" aria-label="Close Modal">
-                    <i data-lucide="x"></i>
+                    <i class="fa-solid fa-xmark"></i>
                 </button>
             </div>
             <form id="consult-form" class="modal-form">
@@ -3555,7 +3593,7 @@
                 </div>
                 <div class="modal-form-footer">
                     <button type="submit" class="btn btn-primary btn-block">
-                        <i data-lucide="send"></i> Submit & Connect on WhatsApp
+                        <i class="fa-solid fa-paper-plane"></i> Submit & Connect on WhatsApp
                     </button>
                     <p class="modal-disclaimer">By submitting, you agree to our <a href="#privacy-policy"
                             data-route="privacy-policy">Privacy Policy</a>. Your data is secure with us.</p>
@@ -3567,7 +3605,7 @@
 
     <!-- ===== TOAST NOTIFICATION ===== -->
     <div id="toast" class="toast-notification">
-        <div class="toast-icon"><i data-lucide="check-circle"></i></div>
+        <div class="toast-icon"><i class="fa-solid fa-circle-check"></i></div>
         <div class="toast-message" id="toast-message">Message sent successfully!</div>
     </div>
 

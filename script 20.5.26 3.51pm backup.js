@@ -8,6 +8,233 @@ document.addEventListener("DOMContentLoaded", () => {
   const App = {
     currentPage: "home",
     isSPA: true, // Determined by presence of multiple page sections
+    //koushik
+    // services: [
+    //   {
+    //     category: "registration",
+    //     title: "GST Registration",
+    //     icon: "file-text",
+    //     desc: "New GSTIN registration for businesses and individuals.",
+    //     color: "blue",
+    //   },
+    //   {
+    //     category: "registration",
+    //     title: "Firm Registration",
+    //     icon: "building-2",
+    //     desc: "Partnership and proprietorship firm registration.",
+    //     color: "blue",
+    //   },
+    //   {
+    //     category: "registration",
+    //     title: "Company Registration",
+    //     icon: "building-2",
+    //     desc: "Pvt Ltd, LLP, and OPC incorporation services.",
+    //     color: "blue",
+    //   },
+    //   {
+    //     category: "registration",
+    //     title: "MSME / Udyog Aadhar",
+    //     icon: "briefcase",
+    //     desc: "Small business registration benefits and subsidies.",
+    //     color: "blue",
+    //   },
+    //   {
+    //     category: "registration",
+    //     title: "Trade Licence",
+    //     icon: "stamp",
+    //     desc: "Municipal trade licence application & renewal.",
+    //     color: "blue",
+    //   },
+    //   {
+    //     category: "registration",
+    //     title: "FSSAI Registration",
+    //     icon: "check-circle",
+    //     desc: "Food safety license for food businesses.",
+    //     color: "blue",
+    //   },
+    //   {
+    //     category: "registration",
+    //     title: "Society Registration",
+    //     icon: "building-2",
+    //     desc: "Registration for NGOs, clubs, and societies.",
+    //     color: "blue",
+    //   },
+    //   {
+    //     category: "registration",
+    //     title: "Shop & Establishment",
+    //     icon: "building-2",
+    //     desc: "Commercial establishment registration act.",
+    //     color: "blue",
+    //   },
+    //   {
+    //     category: "registration",
+    //     title: "Import & Export Code",
+    //     icon: "globe",
+    //     desc: "IEC for international trade businesses.",
+    //     color: "blue",
+    //   },
+    //   {
+    //     category: "registration",
+    //     title: "Professional Tax",
+    //     icon: "calculator",
+    //     desc: "P-Tax enrollment and registration.",
+    //     color: "blue",
+    //   },
+    //   {
+    //     category: "registration",
+    //     title: "ESI & PF Registration",
+    //     icon: "shield-check",
+    //     desc: "Employee state insurance & provident fund setup.",
+    //     color: "blue",
+    //   },
+    //   {
+    //     category: "tax",
+    //     title: "Income Tax Return",
+    //     icon: "calculator",
+    //     desc: "ITR filing for individuals and businesses.",
+    //     color: "orange",
+    //   },
+    //   {
+    //     category: "tax",
+    //     title: "GST Return",
+    //     icon: "file-text",
+    //     desc: "Monthly/Quarterly GST return filing services.",
+    //     color: "orange",
+    //   },
+    //   {
+    //     category: "tax",
+    //     title: "TDS Return",
+    //     icon: "file-text",
+    //     desc: "Tax Deducted at Source return filing.",
+    //     color: "orange",
+    //   },
+    //   {
+    //     category: "tax",
+    //     title: "ESI & PF Return",
+    //     icon: "shield-check",
+    //     desc: "Monthly compliance for ESI and PF.",
+    //     color: "orange",
+    //   },
+    //   {
+    //     category: "finance",
+    //     title: "Accounting Service",
+    //     icon: "calculator",
+    //     desc: "Bookkeeping and daily accounting management.",
+    //     color: "blue",
+    //   },
+    //   {
+    //     category: "finance",
+    //     title: "Tally Accounting",
+    //     icon: "calculator",
+    //     desc: "Professional accounting in Tally software.",
+    //     color: "blue",
+    //   },
+    //   {
+    //     category: "finance",
+    //     title: "Balance Sheet & P/L",
+    //     icon: "trending-up",
+    //     desc: "Preparation of financial statements.",
+    //     color: "blue",
+    //   },
+    //   {
+    //     category: "finance",
+    //     title: "Financial Consultancy",
+    //     icon: "trending-up",
+    //     desc: "Expert advice on loans and finance.",
+    //     color: "blue",
+    //   },
+    //   {
+    //     category: "finance",
+    //     title: "Life Insurance Advice",
+    //     icon: "shield-check",
+    //     desc: "Consultation for life insurance policies.",
+    //     color: "blue",
+    //   },
+    //   {
+    //     category: "finance",
+    //     title: "Health Insurance Advice",
+    //     icon: "shield-check",
+    //     desc: "Best health plans for you and family.",
+    //     color: "blue",
+    //   },
+    //   {
+    //     category: "legal",
+    //     title: "Legal Consultancy",
+    //     icon: "scale",
+    //     desc: "Expert legal advice for business matters.",
+    //     color: "indigo",
+    //   },
+    //   {
+    //     category: "legal",
+    //     title: "Digital Signature (DSC)",
+    //     icon: "pen-tool",
+    //     desc: "Class 3 DSC for e-tendering and filing.",
+    //     color: "indigo",
+    //   },
+    //   {
+    //     category: "legal",
+    //     title: "PAN Card Services",
+    //     icon: "file-text",
+    //     desc: "New Application and Correction services.",
+    //     color: "indigo",
+    //   },
+    //   {
+    //     category: "legal",
+    //     title: "TAN Application",
+    //     icon: "file-text",
+    //     desc: "Tax Deduction Account Number allocation.",
+    //     color: "indigo",
+    //   },
+    //   {
+    //     category: "legal",
+    //     title: "Trust / NGO / 12A & 80G",
+    //     icon: "building-2",
+    //     desc: "Trust registration and tax exemption.",
+    //     color: "indigo",
+    //   },
+    //   {
+    //     category: "legal",
+    //     title: "Partnership Deed",
+    //     icon: "file-text",
+    //     desc: "Drafting of partnership agreements.",
+    //     color: "indigo",
+    //   },
+    //   {
+    //     category: "legal",
+    //     title: "Rent Agreement",
+    //     icon: "file-text",
+    //     desc: "Legal rent agreements for properties.",
+    //     color: "indigo",
+    //   },
+    //   {
+    //     category: "legal",
+    //     title: "Affidavit - Gift Deed",
+    //     icon: "stamp",
+    //     desc: "Notary affidavits and gift deeds.",
+    //     color: "indigo",
+    //   },
+    //   {
+    //     category: "legal",
+    //     title: "Factory Licence",
+    //     icon: "building-2",
+    //     desc: "Licensing for manufacturing units.",
+    //     color: "indigo",
+    //   },
+    //   {
+    //     category: "other",
+    //     title: "Cable Operator PNT",
+    //     icon: "smartphone",
+    //     desc: "PNT registration for cable operators.",
+    //     color: "blue",
+    //   },
+    //   {
+    //     category: "other",
+    //     title: "Other Online Services",
+    //     icon: "globe",
+    //     desc: "Various digital and internet services.",
+    //     color: "blue",
+    //   },
+    //],
 
     services: [
       {
@@ -463,6 +690,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <div class="service-card-accent"></div>
                 <div class="service-card-content">
                     <div class="service-card-icon service-card-icon-${service.color}">
+                        // <i data-lucide="${service.icon}"></i>
                         <i class="${service.icon}"></i>
                     </div>
                     <h3 class="service-card-title">${service.title}</h3>
